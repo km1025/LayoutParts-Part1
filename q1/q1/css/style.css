@@ -1,2 +1,70 @@
 @charset "UTF-8";
 /* 回答はここから */
+
+/*text-alignを使って左右中央寄せ*/
+.box-1{
+  background-color: #fff;
+  width: 200px;
+  padding:20px 0;
+  display: inline-block;
+}
+
+.text-box{
+  text-align:center;
+}
+
+.text-align{
+  display: inline-block;
+  background-color: #a4b3e9; width: 90px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/*marginを使って左右中央寄せ*/
+.box-2{
+  background-color: #fff;
+  width: 200px;
+  padding:20px 0;
+  display: inline-block;
+}
+
+.margin-text{
+  text-align: center;
+}
+
+.margin{
+  text-align: center;
+  width: 90px; background-color: #a4b3e9;
+  font-size: 16px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+/*tableを使って上下左右中央寄せ*/
+.q1--perimeter{
+  display: table;
+}
+.table-box{
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table-text{
+  font-size: 16px;
+  display:inline-block;
+  padding:10px;background-color: #fff;
+}
+
+/*flexを使って上下左右中央寄せ*/
+.flex-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-text{
+  font-size: 16px;
+  padding: 10px;background-color:#fff;
+  text-align: center;
+}
