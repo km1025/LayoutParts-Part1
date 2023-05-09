@@ -61,10 +61,36 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .flex-text{
   font-size: 16px;
   padding: 10px;background-color:#fff;
+  text-align: center;
+}
+
+/*positionを使って上下左右中央寄せ*/
+.position-box{
+  width: 250px; height: 150px;
+  background-color: #fff;
+  display: inline-block;
+  position: relative;
+  margin: auto;
+}
+
+.position-text{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  background-color: #a4b3e9; width: 90px;
+  vertical-align: top;
+  padding: 10px;
+}
+
+.position{
+  font-size: 16px;
   text-align: center;
 }
