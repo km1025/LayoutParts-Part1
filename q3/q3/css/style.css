@@ -1,1 +1,22 @@
 @charset "UTF-8";
+
+.cell--table{
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+  border: 1px solid #000000;
+  border-spacing: 10px;
+  text-align: center;
+}
+
+.th{
+  width: 100px;
+}
+
+.tr{
+
+}
+
+.td{
+ 
+}
