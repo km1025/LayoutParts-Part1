@@ -57,7 +57,7 @@
 }
 
 /*flexを使って上下左右中央寄せ*/
-.flex-box{
+.flex{
   display: flex;
   justify-content: center;
   align-items: center;
