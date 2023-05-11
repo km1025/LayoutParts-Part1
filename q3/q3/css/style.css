@@ -1,22 +1,35 @@
 @charset "UTF-8";
 
 .cell--table{
-  border-collapse: collapse;
   table-layout: fixed;
   width: 100%;
+}
+
+.cell--table th,tr,td{
+  border-collapse: collapse;
   border: 1px solid #000000;
   border-spacing: 10px;
   text-align: center;
+  line-height: 26px;
+  padding: 10px;
 }
 
-.th{
-  width: 100px;
+.cell--table th{
+  background-color: #319c4a;
+  font-size: 18px;
+  line-height: 26px;
 }
 
-.tr{
-
+.cell--table tr,td{
+  background-color: #d5ffc7;
+  font-size: 16px;
+  line-height: 22px;
 }
 
-.td{
- 
+.cell--table tbody tr:nth-child(even){
+  background-color:#bcbcbc;
+}
+
+.cell--table tbody tr:last-child{
+  border-top:1px double rgb(255, 255, 255)
 }
