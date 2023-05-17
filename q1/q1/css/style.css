@@ -57,11 +57,12 @@
 }
 
 /*flexを使って上下左右中央寄せ*/
-.flex{
+.flex-box{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  height: 100%;
 }
 
 .flex-text{

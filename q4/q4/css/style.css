@@ -1,14 +1,16 @@
 @charset "UTF-8";
 
-.bar{
-  display: table;
-  width:100%;
+.box{
+  display: table-cell;
+  padding: 20px;
   text-align: center;
+  vertical-align: middle;
 }
 
 .bar-1{
-  display: table-cell;
-  vertical-align: middle;
+  display: table;
+  width: 100%;
+  margin-bottom: 50px;
 }
 
 .red{
@@ -26,9 +28,8 @@
 }
 
 .bar-2{
-  display: table-cell;
-  vertical-align: middle;
-  margin-top: 50px;
+  display: table;
+  width: 100%;
 }
 
 .green{
@@ -36,7 +37,7 @@
 }
 
 .pink{
-  background-color: #ff7eb2;
+  background-color: #ff7be2;
   width: 400px;
 }
 
