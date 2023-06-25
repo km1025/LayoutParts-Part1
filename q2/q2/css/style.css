@@ -16,3 +16,7 @@
   list-style: none;
   margin-right: 60px;
 }
+
+.card:last-child{
+  margin: 0;
+}
